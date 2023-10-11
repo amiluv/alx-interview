@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 """
 Create a function def pascal_triangle(n): that returns a list of lists
+<<<<<<< HEAD
 of integers representing the Pascal’s triangle of n
+=======
+    of integers representing the Pascal’s triangle of n
+>>>>>>> d653ab73826e18d9eda0ea2d90bbc44144fbc001
 """
 
 
@@ -16,4 +20,7 @@ def pascal_triangle(n):
                 C = C * (i - j) // j
             res.append(level)
     return res
+<<<<<<< HEAD
 
+=======
+>>>>>>> d653ab73826e18d9eda0ea2d90bbc44144fbc001

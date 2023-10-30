@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 	"""
 	 MinOperationss
 	 Gets fewest of operations needed to result in exactly n H characters
@@ -6,6 +7,16 @@
 
 
 def minOperations(n):
+=======
+""" Module for 0-minoperations"""
+
+
+def minOperations(n):
+    """
+    minOperations
+    Gets fewest # of operations needed to result in exactly n H characters
+    """
+>>>>>>> 0344cabfdafc2ff93868edc51db54f910adf4477
     # all outputs should be at least 2 char: (min, Copy All => Paste)
     if (n < 2):
         return 0
